@@ -1,0 +1,62 @@
+#IndexÜberschrift {
+    text-align: center;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttonBack {
+        border: none ;
+        color: #7b818a;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: auto;
+        cursor: pointer;
+}
+
+.buttonBack {background-color: #e6e7e8;}
+    .buttonBack:hover {
+        color: white;
+        background-color: black;
+        transition-duration: 0.3s
+    }
+
+.buttonNoBack {
+    border: none ;
+    color: #7b818a;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: not-allowed;
+}
+
+.buttonNoBack {background-color: #e6e7e8;}
+    .buttonNoBack:hover {
+        color: white;
+        background-color: #7b818a;
+        transition-duration: 0.3s
+    }
+
+.buttonNormal {
+    border: none ;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+}
+.buttonNormal {background-color: white;}
+.buttonNormal:hover {
+    color: white;
+    background-color: black;
+    transition-duration: 0.3s
+}
