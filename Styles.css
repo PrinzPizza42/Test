@@ -3,17 +3,23 @@
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #252627;
     color: #e6e7e8;
 }
 
 header {
     background-color: #1f2020;
+    min-height: 100px;
+    width: 100%;
 }
 
 footer {
-    position: absolute;
+    background-color: #1f2020;
+    min-height: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .buttonBack {
@@ -63,18 +69,24 @@ footer {
     }
 
 .buttonNormal {
-    border: none ;
-    color: black;
+    border-style: outset;
+    border-color: rgb(27, 27, 29);
+    border-radius: 7%;
+    color: white;
     padding: 10px 20px;
     text-align: center;
+    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: auto;
     cursor: pointer;
 }
-.buttonNormal {background-color: white;}
-.buttonNormal:hover {
-    color: white;
-    background-color: black;
-    transition-duration: 0.3s
-}
+
+.buttonNormal {background-color: rgb(38, 38, 41);}
+    .buttonNormal:hover {
+        background-color: rgb(24, 24, 24);
+        transition-duration: 0.3s;
+        border-color: #252627;
+        border-style: inset;
+        color: #868686;
+    }
