@@ -37,12 +37,15 @@ footer {
 }
 
 .buttonBack {background-color: rgb(27, 27, 29);}
-    .buttonBack:hover {
+    .buttonBack:active {
         background-color: rgb(15, 15, 15);
-        transition-duration: 0.3s;
         border-color: #252627;
         border-style: inset;
         color: #868686;
+    }
+    .buttonBack:hover {
+        background-color: rgb(0, 0, 0);
+        animation-duration: 0.3s;
     }
 
 .buttonNoBack {
@@ -60,12 +63,16 @@ footer {
 }
 
 .buttonNoBack {background-color: rgb(27, 27, 29);}
-    .buttonNoBack:hover {
+    .buttonNoBack:active {
         background-color: rgb(15, 15, 15);
         transition-duration: 0.3s;
         border-color: #252627;
         border-style: inset;
         color: #868686;
+    }
+    .buttonNoBack:hover {
+        background-color: rgb(0, 0, 0);
+        animation-duration: 0.3s;
     }
 
 .buttonNormal {
@@ -84,9 +91,50 @@ footer {
 
 .buttonNormal {background-color: rgb(38, 38, 41);}
     .buttonNormal:hover {
+        background-color: rgb(20, 20, 20);
+        transition-duration: 0.3s;
+    }
+    .buttonNormal:active {
         background-color: rgb(24, 24, 24);
         transition-duration: 0.3s;
         border-color: #252627;
         border-style: inset;
         color: #868686;
     }
+
+
+
+.buttonTest {
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.buttonTest:active {
+   transform: scale(90%);
+}
+
+.buttonTest:hover {
+    
+}
+
+div {
+    display: flex;
+  align-items: center;
+  margin: 40px;
+}
+
+.buttonTest2 {
+   
+}
+
+.buttonTest2:active {
+   
+}
+
+.buttonTest2:hover {
+    
+}
